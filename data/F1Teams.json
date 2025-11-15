@@ -1,0 +1,93 @@
+
+[
+    {
+        "constructorId": "mclaren",
+        "name": "McLaren",
+        "nationality": "United Kingdom",
+        "teamColor": "244,118,0",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/mclaren/2025mclarenlogowhite.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/mclaren/2025mclarencarright.webp",
+        "countryFlagURL": "https://flagsapi.com/GB/flat/64.png"
+    },
+    {
+        "constructorId": "ferrari",
+        "name": "Ferrari",
+        "nationality": "Italy",
+        "teamColor": "237,17,49",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/ferrari/2025ferrarilogolight.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,h_224/q_auto/d_common:f1:2025:fallback:car:2025fallbackcarright.webp/v1740000000/common/f1/2025/ferrari/2025ferraricarright.webp",
+        "countryFlagURL": "https://flagsapi.com/IT/flat/64.png"
+    },
+    {
+        "constructorId": "mercedes",
+        "name": "Mercedes",
+        "nationality": "Germany",
+        "teamColor": "0,215,182",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/mercedes/2025mercedeslogowhite.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,h_224/q_auto/d_common:f1:2025:fallback:car:2025fallbackcarright.webp/v1740000000/common/f1/2025/mercedes/2025mercedescarright.webp",
+        "countryFlagURL": "https://flagsapi.com/DE/flat/64.png"
+    },
+    {
+        "constructorId": "red_bull",
+        "name": "Red Bull Racing",
+        "nationality": "Austria",
+        "teamColor": "71,129,215",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/redbullracing/2025redbullracinglogowhite.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,h_224/q_auto/d_common:f1:2025:fallback:car:2025fallbackcarright.webp/v1740000000/common/f1/2025/redbullracing/2025redbullracingcarright.webp",
+        "countryFlagURL": "https://flagsapi.com/AT/flat/64.png"
+    },
+    {
+        "constructorId": "williams",
+        "name": "Williams",
+        "nationality": "United Kingdom",
+        "teamColor": "24,104,219",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/williams/2025williamslogowhite.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,h_224/q_auto/d_common:f1:2025:fallback:car:2025fallbackcarright.webp/v1740000000/common/f1/2025/williams/2025williamscarright.webp",
+        "countryFlagURL": "https://flagsapi.com/GB/flat/64.png"
+    },
+    {
+        "constructorId": "racing_bulls",
+        "name": "Racing Bulls",
+        "nationality": "Italy",
+        "teamColor": "108,152,255",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/racingbulls/2025racingbullslogowhite.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,h_224/q_auto/d_common:f1:2025:fallback:car:2025fallbackcarright.webp/v1740000000/common/f1/2025/racingbulls/2025racingbullscarright.webp",
+        "countryFlagURL": "https://flagsapi.com/IT/flat/64.png"
+    },
+    {
+        "constructorId": "aston_martin",
+        "name": "Aston Martin",
+        "nationality": "United Kingdom",
+        "teamColor": "34,153,113",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/astonmartin/2025astonmartinlogowhite.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,h_224/q_auto/d_common:f1:2025:fallback:car:2025fallbackcarright.webp/v1740000000/common/f1/2025/astonmartin/2025astonmartincarright.webp",
+        "countryFlagURL": "https://flagsapi.com/GB/flat/64.png"
+    },
+    {
+        "constructorId": "haas",
+        "name": "Haas F1 Team",
+        "nationality": "United States",
+        "teamColor": "156,159,162",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/haas/2025haaslogowhite.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,h_224/q_auto/d_common:f1:2025:fallback:car:2025fallbackcarright.webp/v1740000000/common/f1/2025/haasf1team/2025haasf1teamcarright.webp",
+        "countryFlagURL": "https://flagsapi.com/US/flat/64.png"
+    },
+    {
+        "constructorId": "kick_sauber",
+        "name": "Kick Sauber",
+        "nationality": "Switzerland",
+        "teamColor": "1,192,14",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/kicksauber/2025kicksauberlogowhite.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,h_224/q_auto/d_common:f1:2025:fallback:car:2025fallbackcarright.webp/v1740000000/common/f1/2025/kicksauber/2025kicksaubercarright.webp",
+        "countryFlagURL": "https://flagsapi.com/CH/flat/64.png"
+    },
+    {
+        "constructorId": "alpine",
+        "name": "Alpine",
+        "nationality": "France",
+        "teamColor": "0,161,232",
+        "logoURL": "https://media.formula1.com/image/upload/c_fit,h_64/q_auto/v1740000000/common/f1/2025/alpine/2025alpinelogowhite.webp",
+        "carURL": "https://media.formula1.com/image/upload/c_lfill,h_224/q_auto/d_common:f1:2025:fallback:car:2025fallbackcarright.webp/v1740000000/common/f1/2025/alpine/2025alpinecarright.webp",
+        "countryFlagURL": "https://flagsapi.com/FR/flat/64.png"
+    }
+]
