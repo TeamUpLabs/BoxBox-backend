@@ -59,10 +59,8 @@ def get_db():
     데이터베이스 세션을 생성하고 관리하는 의존성 함수
     FastAPI의 Depends와 함께 사용
     """
-    # Import models here to avoid circular imports
-    from src.v1.models.circuit import Circuit
-    from src.v1.models.session import Session
-    from src.v1.models.result import Result
+    # Import all models to ensure they are loaded
+    from src.v2.models import Circuit, Session, Driver, Team, Result
     
     db = SessionLocal()
     try:
