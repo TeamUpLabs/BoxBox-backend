@@ -8,10 +8,10 @@ from src.v2.utils.analyze_weather import analyze_weather_conditions
 
 class WeatherData(BaseModel):
     weather_condition: str
-    condition_ratio: float
-    average_temperature: float
-    average_humidity: float
-    wind_speed: float
+    condition_ratio: str
+    average_temperature: str
+    average_humidity: str
+    wind_speed: str
 
 class SessionDto(BaseModel):
     id: int

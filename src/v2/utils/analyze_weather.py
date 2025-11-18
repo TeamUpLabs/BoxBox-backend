@@ -96,10 +96,10 @@ def analyze_weather_conditions(weather_data: Union[Dict, List[Dict], pd.DataFram
     
     return {
         'weather_condition': weather_condition.value,
-        'condition_ratio': round(condition_ratio, 2),
-        'average_temperature': round(float(avg_temp), 1),
-        'average_humidity': round(float(avg_humidity), 1),
-        'wind_speed': round(float(avg_wind_speed), 1)
+        'condition_ratio': f"{round(condition_ratio, 2) * 100}%",
+        'average_temperature': f"{round(float(avg_temp), 1)}°C",
+        'average_humidity': f"{round(float(avg_humidity), 1)}%",
+        'wind_speed': f"{round(float(avg_wind_speed), 1)}km/h"
     }
 
 def _determine_detailed_condition(condition_ratio: float, avg_humidity: float, 

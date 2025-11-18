@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends
 from src.v2.repositories.results import ResultRepository
-from sqlalchemy.orm import Session
 from src.core.database.database import get_db
+from sqlalchemy.orm import Session
+from typing import Optional
 
 router = APIRouter(prefix="/v2/results", tags=["results"])
 
