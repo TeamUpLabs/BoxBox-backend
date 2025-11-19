@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, JSON
+from sqlalchemy import Column, Integer, String, ForeignKey, JSON, Text
 from sqlalchemy.orm import relationship
 from typing import List, Dict, Any, Optional
 import json
@@ -17,8 +17,14 @@ class Circuit(Base):
     name = Column(String(255), nullable=False, index=True)
     location = Column(String(255), nullable=True)
     country = Column(String(100), nullable=False, index=True)
-    country_code = Column(String(3), nullable=True, comment="ISO 3166-1 alpha-3 country code")
-    circuit_info = Column(JSON, nullable=True, comment="Circuit information")
+    country_code = Column(String(2), nullable=True, comment="ISO 3166-1 alpha-2 country code")
+    image = Column(Text, nullable=True)
+    circuit_length = Column(String(255), nullable=True)
+    first_grand_prix = Column(Integer, nullable=True)
+    number_of_laps = Column(Integer, nullable=True)
+    fastest_lap_time = Column(JSON, nullable=True)
+    race_distance = Column(String(255), nullable=True)
+    
     
     # Use string-based relationship to avoid circular imports
     sessions = relationship("Session", back_populates="circuit", cascade="all, delete-orphan")
@@ -35,5 +41,10 @@ class Circuit(Base):
             'location': self.location,
             'country': self.country,
             'country_code': self.country_code,
-            'circuit_info': json.loads(self.circuit_info) if isinstance(self.circuit_info, str) else self.circuit_info
+            'image': self.image,
+            'circuit_length': self.circuit_length,
+            'first_grand_prix': self.first_grand_prix,
+            'number_of_laps': self.number_of_laps,
+            'fastest_lap_time': self.fastest_lap_time,
+            'race_distance': self.race_distance
         }

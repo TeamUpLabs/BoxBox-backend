@@ -7,6 +7,7 @@ from src.core.database.database import SessionLocal
 from datetime import datetime, timezone
 
 settings = Settings()
+fastf1.set_log_level("ERROR")
 
 session_name_to_session_code = {
   "Practice 1": "FP1",

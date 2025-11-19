@@ -8,7 +8,12 @@ class CircuitDto(BaseModel):
   location: str
   country: str
   country_code: str
-  circuit_info: dict
+  image: str
+  circuit_length: str
+  first_grand_prix: int
+  number_of_laps: int
+  fastest_lap_time: dict
+  race_distance: str
   
   @classmethod
   def from_model(cls, circuit: CircuitModel) -> 'CircuitDto':
@@ -19,5 +24,10 @@ class CircuitDto(BaseModel):
       location=circuit.location,
       country=circuit.country,
       country_code=circuit.country_code,
-      circuit_info=circuit.circuit_info
+      image=circuit.image,
+      circuit_length=circuit.circuit_length,
+      first_grand_prix=circuit.first_grand_prix,
+      number_of_laps=circuit.number_of_laps,
+      fastest_lap_time=circuit.fastest_lap_time,
+      race_distance=circuit.race_distance
     )
