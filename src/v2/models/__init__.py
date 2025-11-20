@@ -8,6 +8,7 @@ from .session import Session
 from .driver import Driver
 from .team import Team
 from .result import Result
+from .news import News
 
 # This ensures that all models are properly imported and their metadata is available
-__all__ = ['Circuit', 'Session', 'Driver', 'Team', 'Result']
+__all__ = ['Circuit', 'Session', 'Driver', 'Team', 'Result', 'News']
