@@ -9,7 +9,7 @@ def process_content(soup):
     for heading in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
         level = heading.name[1]
         heading_text = heading.get_text(strip=True)
-        custom_tag = f"[HEADING:level={level}]{heading_text}[/HEADING]"
+        custom_tag = f"[HEADING]{heading_text}[/HEADING]"
         heading.replace_with(custom_tag)
     
     # Process paragraphs
